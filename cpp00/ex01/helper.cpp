@@ -1,25 +1,6 @@
 #include "header.hpp"
 
 
-// std::string Contact::askField (const std::string &prompt)
-// {
-//         std::string input;
-//         while (true)
-//         {
-//             std::cout << prompt;
-//             if (!std::getline(std::cin, input))
-//             {
-//                 std::cout << "\nInput error. Aborting.\n";
-//                 exit(1);
-//             }
-//             if (!input.empty())
-//                 return input;
-//             std::cout << "Field can't be empty. Please try again.\n";
-//         }
-// }
-
-
-
 void Contact::printContact()
 {
     int width = 10;
