@@ -10,7 +10,7 @@ Cat::~Cat()
 {
     std::cout << "destructor : " << type << "destroyed" << std::endl;
 }
-Cat::Cat(const Cat& other)
+Cat::Cat(const Cat& other)  : Animal()
 {
 	std::cout << "Cat :  Copy contructer called" << std::endl;
     this->type = other.type;

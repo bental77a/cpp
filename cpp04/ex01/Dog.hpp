@@ -17,4 +17,8 @@ class Dog : public Animal
         void makeSound() const;
 };
 
+
+//protype:
+void NewFunction();
+
 #endif

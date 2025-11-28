@@ -11,7 +11,7 @@ WrongDog::~WrongDog()
 {
     std::cout << "destructor : " << type << "has destroyed" << std::endl;
 }
-WrongDog::WrongDog(const WrongDog& other)
+WrongDog::WrongDog(const WrongDog& other)  : WrongAnimal()
 {
     std::cout << "WrongDog :  Copy contructer called" << std::endl;
     this->type = other.type;

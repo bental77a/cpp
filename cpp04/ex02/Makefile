@@ -1,9 +1,7 @@
 C++ = c++
-C++_FLAGS = -Wall -Wextra #-Werror -std=c++98 -g3
-INFILES = 	main.cpp Animal.cpp Dog.cpp Cat.cpp Brain.cpp \
-			WrongAnimal.cpp WrongDog.cpp WrongCat.cpp
-INCS = 	Animal.hpp Dog.hpp Cat.hpp Brain.hpp \
-		WrongAnimal.hpp WrongDog.hpp WrongCat.hpp
+C++_FLAGS = -Wall -Wextra -Werror -std=c++98 -g3
+INFILES = 	main.cpp Animal.cpp Dog.cpp Cat.cpp Brain.cpp
+INCS = 	Animal.hpp Dog.hpp Cat.hpp Brain.hpp
 
 OBJFILES = $(INFILES:.cpp=.o)
 

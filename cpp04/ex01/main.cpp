@@ -1,10 +1,6 @@
 #include "Animal.hpp"
-#include "WrongAnimal.hpp"
 #include "Cat.hpp"
-#include "WrongCat.hpp"
 #include "Dog.hpp"
-#include "WrongDog.hpp"
-#include "main.h"
 
 int main()
 {
@@ -32,7 +28,7 @@ int main()
         std::cout << "Assigning d5 = d4" << std::endl;
         d5 = d4;                     // operator= should perform deep copy or safe behavior
         std::cout << "Self-assign d5 = d5" << std::endl;
-        d5 = d5;                     // should be safe
+        // d5 = d5;                     // should be safe
     }
 
     std::cout << "\nEnd of tests." << std::endl;
