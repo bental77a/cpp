@@ -1,21 +1,4 @@
 #include "Animal.hpp"
-#include "Dog.hpp"
-#include "Cat.hpp"
-
-
-/* ************************************************************************** */
-/*                                                                            */
-/*                                                        :::      ::::::::   */
-/*   main.cpp                                           :+:      :+:    :+:   */
-/*                                                    +:+ +:+         +:+     */
-/*   By: cedmulle <cedmulle@student.42lausanne.c    +#+  +:+       +#+        */
-/*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2024/02/23 09:44:33 by cedmulle          #+#    #+#             */
-/*   Updated: 2024/02/23 17:09:54 by cedmulle         ###   ########.fr       */
-/*                                                                            */
-/* ************************************************************************** */
-
-#include "Animal.hpp"
 #include "WrongAnimal.hpp"
 #include "Cat.hpp"
 #include "WrongCat.hpp"
